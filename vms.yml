@@ -1,0 +1,30 @@
+api_host: pve.node.local
+api_user: root@pam
+api_password: Password
+node: PVW_Node
+clone_vm: TEMPLATE_NAME
+key_name: "ssh-rsa KEY adm1n@PC"
+gateway: IP_GATEWAY
+nameserver: IP_NameSrv
+vms:
+  node0:
+    name: node0.dx.local
+    ipaddress0: 192.168.1.90/24
+    vmid: 600
+    cores: 2
+    sockets: 1
+    memory: 4096
+  node1:
+    name: node1.dx.local
+    ipaddress0: 192.168.1.91/24
+    vmid: 601
+    cores: 2
+    sockets: 1
+    memory: 4096
+  node2:
+    name: node2.dx.local
+    ipaddress0: 192.168.1.92/24
+    vmid: 602
+    cores: 2
+    sockets: 1
+    memory: 4096
